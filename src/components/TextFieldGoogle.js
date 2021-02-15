@@ -40,7 +40,7 @@ const TextFieldGoogle = (props) => {
 
   return (
  
-      <Paper component="form" onSubmit={onSubmit} elevation={3} className={classes.root}>
+      <Paper component="form" onSubmit={onSubmit} elevation={3} className={classes.paper}>
         <IconButton className={classes.iconButton} aria-label="menu">
           <MenuIcon />
         </IconButton>
